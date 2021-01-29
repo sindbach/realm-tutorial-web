@@ -23,8 +23,6 @@ export default function LoginScreen() {
   const [error, setError] = React.useState({});
   // Whenever the mode changes, clear the form inputs
   React.useEffect(() => {
-    setEmail("nick.larew@mongodb.com");
-    setPassword("password");
     setError({});
   }, [mode]);
 
